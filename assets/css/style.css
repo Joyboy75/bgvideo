@@ -10,9 +10,14 @@ html {
   font-size: 16px;
 }
 
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
 body {
   font-family: "Urbanist", sans-serif;
   color: white;
+  width: 100%;
 }
 @media screen and (min-width: 576px) {
   html {
@@ -61,7 +66,8 @@ p {
 .hero-content-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+
   /*Viewport Height */
   position: relative;
   margin-top: 300px;
